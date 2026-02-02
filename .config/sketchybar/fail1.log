@@ -1,0 +1,27 @@
+/~ > ~/.config/sketchybar\ /sketchybarrc ; exit;
+~/.config/sketchybar /sketchybarrc: line 3: /colors.sh: No such file or directory
+[!] Background: Invalid property 'padding_top'
+[!] Text: Invalid property 'padding_bottom'
+[!] Text: Invalid property 'padding_bottom'
+~/.config/sketchybar /sketchybarrc: line 53: /items/spaces.sh: No such file or directory
+~/.config/sketchybar /sketchybarrc: line 55: /items/front_app.sh: No such file or directory
+~/.config/sketchybar /sketchybarrc: line 59: /items/media.sh: No such file or directory
+~/.config/sketchybar /sketchybarrc: line 64: /items/bar.sh: No such file or directory
+
+Saving session...
+...copying shared history...
+...saving history...truncating history files...
+...completed.
+
+[Prozess beendet]
+
+
+### end process
+
++ ~/.config/sketchybar/sketchybarrc
+- ~/.config/sketchybar /sketchybarrc
+
+
+
+### reason
+wrong directory name.
