@@ -7,50 +7,16 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "ui_font_weight": 100.0,
-  "buffer_line_height": "standard",
-  "buffer_font_weight": 100.0,
-  "agent": {
-    "button": false,
-    "favorite_models": [],
-    "model_parameters": []
-  },
-  "collaboration_panel": {
-    "button": false
-  },
-  "notification_panel": {
-    "button": false
-  },
-  "debugger": {
-    "button": false
-  },
-  "search": {
-    "button": false
-  },
-  "diagnostics": {
-    "button": false
-  },
-  "terminal": {
-    "font_family": "Departure Mono",
-    "font_weight": 100.0,
-    "button": false
-  },
-  "status_bar": {
-    "cursor_position_button": true,
-    "active_language_button": true
-  },
   "edit_predictions": {
-    "provider": "none",
+    "provider": "none"
   },
   "git_panel": {
-    "button": false,
+    "button": true,
   },
   "outline_panel": {
-    "button": false,
-    "git_status": false,
+    "git_status": true,
   },
   "project_panel": {
-    "button": true,
     "git_status": true,
   },
   "tabs": {
@@ -74,7 +40,7 @@
   //"ui_font_family": "Geneva",
   //"buffer_font_family": "Hack Nerd Font Mono",
   "ui_font_size": 18,
-  "buffer_font_size": 16.0,
+  "buffer_font_size": 16,
   "theme": {
     "mode": "system",
     "light": "One Light",
@@ -84,17 +50,10 @@
     //"dark": "Snazzy Theme - blurred"
     //"dark": "Snazzy Theme"
     //"dark": "One Dark"
-    "dark": "emex' monochrome theme (Blur)",
+    "dark": "Base16 Gruvbox dark, hard",
   },
   "workbench.status_bar.visible": false,
   "workbench.activity_bar.visible": false,
   "workbench.title_bar.visible": false,
   "editor.minimap.enabled": false,
-  "toolbar": {
-    "agent_review": false,
-    "selections_menu": false,
-    "quick_actions": false,
-    "breadcrumbs": true,
-    "visible": false,
-  },
 }
