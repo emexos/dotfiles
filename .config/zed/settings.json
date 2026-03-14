@@ -46,10 +46,18 @@
     "button": false,
   },
   "outline_panel": {
+    "auto_fold_dirs": false,
+    "folder_icons": true,
     "button": false,
     "git_status": false,
   },
   "project_panel": {
+    "show_diagnostics": "off",
+    "hide_root": false,
+    "bold_folder_labels": false,
+    "auto_fold_dirs": false,
+    "folder_icons": false,
+    "diagnostic_badges": false,
     "button": true,
     "git_status": true,
   },
@@ -64,7 +72,7 @@
     "html": false,
     "nvim-nightfox": false,
   },
-  "icon_theme": "JetBrains New UI Icons (Dark)",
+  "icon_theme": "Ton Dark Theme",
   "vim_mode": false,
   "base_keymap": "VSCode",
   "ui_font_family": "Departure Mono",
@@ -84,7 +92,7 @@
     //"dark": "Snazzy Theme - blurred"
     //"dark": "Snazzy Theme"
     //"dark": "One Dark"
-    "dark": "emex' monochrome theme (Blur)",
+    "dark": "emex' monochrome theme",
   },
   "workbench.status_bar.visible": false,
   "workbench.activity_bar.visible": false,
