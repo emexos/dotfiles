@@ -14,7 +14,7 @@ ITEM_DIR="$CONFIG_DIR/items"
 # If you are looking for other colors, see the color picker:
 # https://felixkratz.github.io/SketchyBar/config/tricks#color-picker
 
-sketchybar --bar height=38 \
+sketchybar --bar height=25 \
                  blur_radius=10   \
                  position=top     \
                  padding_top=40 \
@@ -38,9 +38,9 @@ sketchybar --default icon.font="SF Pro:Semibold:15.0"  \
                      icon.color=$WHITE                 \
                      label.font="SF Pro:Semibold:15.0" \
                      label.color=$WHITE                \
-                     background.color=$ITEM_BG_COLOR       \
-                     background.corner_radius=15           \
-                     background.height=27                  \
+                     background.color=$BAR_COLOR       \
+                     background.corner_radius=0           \
+                     background.height=25                  \
                      padding_left=1                        \
                      padding_right=1                       \
                      label.padding_left=4                  \
@@ -51,11 +51,9 @@ sketchybar --default icon.font="SF Pro:Semibold:15.0"  \
                      icon.padding_right=4
 
 
-
-
 source $ITEM_DIR/spaces.sh
 #source $ITEM_DIR/label.sh
-source $ITEM_DIR/front_app.sh
+#source $ITEM_DIR/front_app.sh
 #source $ITEM_DIR/app.sh
 
 

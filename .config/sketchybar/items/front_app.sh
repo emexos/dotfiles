@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sketchybar --add item front_app left \
-  --set front_app background.color=$BAR_COLOR \
+  --set front_app background.drawing=off \
                   icon.drawing=off \
                   padding_left=4 \
                   padding_right=4 \

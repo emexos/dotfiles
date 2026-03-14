@@ -3,12 +3,12 @@
 PLUGIN_DIR="$HOME/.config/sketchybar/plugins"
 
 # [
-sketchybar --add item bar_end right \
-           --set bar_end label="]" \
-                          label.color=$GRAY \
-                          background.color="$BAR_COLOR" \
-                          padding_left=-18 \
-                          padding_right=-10
+#sketchybar --add item bar_end right \
+#           --set bar_end label="]" \
+#                          label.color=$GRAY \
+#                          background.drawing=off \
+#                          padding_left=-18 \
+#                          padding_right=-10
 
 #sketchybar --add item time right \
 #           --set time script="$PLUGIN_DIR/time.sh" \
@@ -55,16 +55,16 @@ sketchybar --add item bar_cpu right \
                           icon=cpu:  \
                           label.color=$RWHITE \
                           icon.color=$WHITE \
-                          background.color="$BAR_COLOR" \
+                          background.drawing=off \
                           padding_left=1 \
                           #padding_right=-18
 
 # /
 sketchybar --add item bar_sep1 right \
-           --set bar_sep1 label=" / " \
+           --set bar_sep1 label="/ " \
                           label.color=$GRAY \
                           icon.color=$WHITE \
-                          background.color="$BAR_COLOR" \
+                          background.drawing=off \
                           padding_left=-20 \
                           padding_right=-10
 
@@ -73,15 +73,15 @@ sketchybar --add item battery right \
                          script="$PLUGIN_DIR/battery.sh" \
                          label.color=$RWHITE \
                          icon.color=$WHITE \
-                         background.color="$BAR_COLOR" \
+                         background.drawing=off \
            --subscribe battery system_woke power_source_change
 
 # /
 sketchybar --add item bar_sep2 right \
-           --set bar_sep2 label=" / " \
+           --set bar_sep2 label="/ " \
                           label.color=$GRAY \
                           icon.color=$WHITE \
-                          background.color="$BAR_COLOR" \
+                          background.drawing=off \
                           padding_left=-20 \
                           padding_right=-10
 
@@ -89,15 +89,15 @@ sketchybar --add item volume right \
            --set volume script="$PLUGIN_DIR/volume.sh" \
                           label.color=$RWHITE \
                           icon.color=$WHITE \
-                          background.color="$BAR_COLOR" \
+                          background.drawing=off \
            --subscribe volume volume_change
 
 # [
-sketchybar --add item bar_open right \
-           --set bar_open label="[" \
-                          label.color=$GRAY \
-                          background.color="$BAR_COLOR" \
-                          padding_left=-18 \
-                          padding_right=-12
+#sketchybar --add item bar_open right \
+#           --set bar_open label="[" \
+#                          label.color=$GRAY \
+#                          background.drawing=off \
+#                          padding_left=-18 \
+#                          padding_right=-12
 
 sketchybar --update

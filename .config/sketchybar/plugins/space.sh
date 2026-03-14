@@ -9,14 +9,14 @@ source "$CONFIG_DIR/colors.sh"
 SID="${NAME#*.}"
 
 if [ "$SELECTED" = true ]; then
-  sketchybar --set "$NAME" background.drawing=on \
-                         background.color="$BAR_COLOR" \
-                         icon="* $SID" \
-                         label.color="$WHITE" \
-                         icon.color="$WHITE"
-else
-  sketchybar --set "$NAME" background.drawing=off \
+  sketchybar --set "$NAME" background.color=$RWHITE \
                          icon="$SID" \
-                         label.color="$ACCENT_COLOR" \
-                         icon.color="$ACCENT_COLOR"
+                         label.color="$RBLACK" \
+                         icon.color="$RBLACK"
+
+else
+  sketchybar --set "$NAME" background.color=$GRAY \
+                         icon="$SID" \
+                         label.color="$RWHITE" \
+                         icon.color="$RWHITE"
 fi
